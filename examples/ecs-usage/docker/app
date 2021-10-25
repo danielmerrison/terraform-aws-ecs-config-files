@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Sample Container Created"
+echo /tmp/test.txt: $(cat /tmp/test.txt)
+echo /tmp/secret-test.txt: $(cat /tmp/secret-test.txt)
+echo "Hit CTRL+C to stop..."
+while :; do sleep 5; done
